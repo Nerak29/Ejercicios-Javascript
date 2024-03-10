@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:x-large;
+    background-image: url(./imagenes/flores.jpg);
+
+}
+
+header{
+    max-width: 1000px;
+    margin: auto;
+    background-color:maroon;
+    margin-top: 100px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.menu > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu > li:hover{
+    background-color: darkgreen;
+}
