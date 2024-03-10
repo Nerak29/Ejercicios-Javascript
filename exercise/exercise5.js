@@ -9,7 +9,7 @@ let people = ["Maria", "Dani", "Luis", "Juan", "Camila"];
 7.	Write the command that gives the indexOf where "Maria" is located.
 At the end of the exercise, there should be 4 people in the array.*/
 
-let people = ["Maria", "Dani", "Luis", "Juan", "Camila"];
+let people = ["María", "Dani", "Luis", "Juan", "Camila"];
 console.log(people);
 
 console.log("eliminando " + people.splice(1, 1)  );
@@ -28,13 +28,13 @@ console.log( people );
 for (let i = 0; i < people.length; i++) {
     console.log(people[i]);
   
-    if (people[i] === "Maria") {
-      console.log("Encontrado Maria!");
+    if (people[i] === "María") {
+      console.log("Encontrado María!");
       break; 
     }
 }
 
 document.getElementById("resultado").textContent = people;
-console.log(people.indexOf("Maria"));
+console.log(people.indexOf("María"));
 
 console.log(people);
